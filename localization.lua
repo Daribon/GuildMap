@@ -15,8 +15,26 @@ GUILDMAP_TEXT_NO_ACTION = "No Action";
 GUILDMAP_TEXT_PING_THRU = "Minimap Ping";
 GUILDMAP_TEXT_TARGET_PLAYER = "Target Player";
 
+-- russian translation
+if (GetLocale() == "ruRU") then
+	GUILDMAP_TEXT_LOADED = "Карта гильдии %s от Брю загружена - введите /guildmap для настроек";
+	GUILDMAP_FIRST_TIME_USAGE = "Обнаружено первое использование GuildMap — загружены параметры по умолчанию";
+
+	GUILDMAP_TEXT_MINIMAP_ARROWS = "Стрелки на миникарте";
+	GUILDMAP_TEXT_WITHIN_DISTANCE = "На расстоянии";
+	GUILDMAP_TEXT_NEAR = "Ближе";
+	GUILDMAP_TEXT_FAR = "Дальше";
+	GUILDMAP_TEXT_CHANNEL = "Канал";
+	GUILDMAP_TEXT_PASSWORD = "Пароль";
+	GUILDMAP_TEXT_ON_ICON_CLICK = "При нажатии на значок миникарты с...";
+	GUILDMAP_TEXT_LEFT_MB = "Левой кнопкой мыши";
+	GUILDMAP_TEXT_RIGHT_MB = "Правой кнопкой мыши";
+	GUILDMAP_TEXT_NO_ACTION = "Никаких действий";
+	GUILDMAP_TEXT_PING_THRU = "Пинг на миникарте";
+	GUILDMAP_TEXT_TARGET_PLAYER = "Нацелиться на игрока";
+
 -- german translation
-if (GetLocale() == "deDE") then
+elseif (GetLocale() == "deDE") then
 	GUILDMAP_TEXT_LOADED = "GuildMap %s von Bru geladen - gebe /guildmap zum Konfigurieren ein";
 	GUILDMAP_FIRST_TIME_USAGE = "Erstmalige GuildMap Benutzung entdeckt - Default-Einstellungen geladen";
 
