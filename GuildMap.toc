@@ -1,8 +1,11 @@
 ## Interface: 11200
 ## Title: GuildMap
+## Title-ruRU: Карта гильдии
 ## Author: Bru on Blackhand
 ## Notes: Displays guild members on the world and mini map
+## Notes-ruRU: Отображает участников гильдии в мире и на мини-карте
 ## Notes-deDE: Zeigt Gildenmitglieder auf der Welt- und Minikarte an
 ## SavedVariables: GuildMapPermData
+
 GuildMap.xml
 GuildMapOptions.xml
